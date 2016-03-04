@@ -1,0 +1,60 @@
+AutoServlet.java
+r63 Exception handlers moeten de originele exceptie behouden
+r64 e.printStackTrace(); zou met een logger moeten
+r18 @Override voor elke methode die uit een superklasse override
+r27,r77 String literal zou aan de linkerkant moeten staan bij vergelijking
+r75-r88 Methode duplicaat van KlantServlet.java r87-99
+
+AutoTotaalDienstenContextListener.java
+r20,r106 @Override voor elke methode die uit een superklasse override
+r106 Method should not be empty
+
+Klant.java
+r133 Zou List moeten gebruiken ipv specifieke implementatie ArrayList
+r39 <> zou moeten worden gebruikt
+r13 meerdere variabelen zouden niet op dezelfde lijn gedeclareerd moeten worden
+
+KlantServlet.java
+r75 Exception handlers moeten de originele exceptie behouden
+r40,r76 e.printStackTrace(); zou met een logger moeten
+r20 @Override voor elke methode die uit een superklasse override
+r27,r89 String literal zou aan de linkerkant moeten staan bij vergelijking
+r87-r99 Methode duplicaat van AutoServlet.java r75-88
+
+KlantenDao.java
+r50 Zou List moeten gebruiken ipv specifieke implementatie ArrayList
+
+KlantenDaoImpl.java
+r89, Zou List moeten gebruiken ipv specifieke implementatie ArrayList
+r54 <> zou moeten worden gebruikt
+r55,r60,r64,r69 String literals zouden niet gedupliceerd moeten worden
+r4 Nutteloze imports zouden verwijderd moeten worden
+
+Monteur.java
+r13 meerdere variabelen zouden niet op dezelfde lijn gedeclareerd moeten worden
+r3 Nutteloze imports zouden verwijderd moeten worden
+
+MonteursDao.java
+r49 Zou List moeten gebruiken ipv specifieke implementatie ArrayList
+
+MonteursDaoImpl.java
+r88,r99 Zou List moeten gebruiken ipv specifieke implementatie ArrayList
+r52,r100 <> zou moeten worden gebruikt
+r53,r58,r62,r68 String literals zouden niet gedupliceerd moeten worden
+
+WerkzaamhedenDao.java
+r56 Zou List moeten gebruiken ipv specifieke implementatie ArrayList
+r39 method parameter naam moet voldoen aan de conventie
+
+WerkzaamhedenDaoImpl.java
+r68 zou gevondenWerkzaamheid moeten returnen ipv null
+r81 Zou List moeten gebruiken ipv specifieke implementatie ArrayList
+r48 <> zou moeten worden gebruikt
+r49,r54,r56,r56 String literals zouden niet gedupliceerd moeten worden
+
+Werkzaamheid.java
+r3 nutteloze import zou verwijderd moeten worden
+
+
+
+

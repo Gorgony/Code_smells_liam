@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+ http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4">
+
+	<servlet>
+		<servlet-name>Auto Aanmaken</servlet-name>
+		<servlet-class>nl.hu.tho4.view.AutoServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Auto Aanmaken</servlet-name>
+		<url-pattern>/AutoAanmaken.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Klant Aanmaken</servlet-name>
+		<servlet-class>nl.hu.tho4.view.KlantServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Klant Aanmaken</servlet-name>
+		<url-pattern>/KlantAanmaken.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Werkzaamheid Aanmaken</servlet-name>
+		<servlet-class>nl.hu.tho4.view.WerkzaamheidServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Werkzaamheid Aanmaken</servlet-name>
+		<url-pattern>/WerkzaamheidAanmaken.do</url-pattern>
+	</servlet-mapping>
+
+	<listener>
+		<listener-class>nl.hu.tho4.AutoTotaalDienstenContextListener
+		</listener-class>
+	</listener>
+
+</web-app> 
